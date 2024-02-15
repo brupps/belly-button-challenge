@@ -31,3 +31,6 @@ hw
 
 ## Acknowledgements
 Skills for this assignment were obtained through the activities and instruction from class with instructor Othmane Benyoucef. In addition further research and skills were acquired through Stack Overflow, Github and freecodecamp.org. 
+
+## References
+Hulcr, J. et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. Retrieved from: http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/ Links to an external site.
