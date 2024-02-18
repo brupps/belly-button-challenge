@@ -10,7 +10,7 @@ d3.json(url).then(function (data) {
 function drawBar(sampleId) {
 
     // Use D3 to get all the data
-    d3.json(url).then(data => {
+   d3.json(url).then(data => {
         let samples = data.samples;
 
         //filter data based on the sample
@@ -57,7 +57,7 @@ function drawBubble(sampleId) {
 
     // Use D3 to get all the data
     d3.json(url).then(data => {
-        let samples = data.samples;
+       // let samples = data.samples;
 
         //filter data based on the sample
         let values = samples.filter(result => result.id == sampleId);
@@ -108,7 +108,7 @@ function showData(sampleId) {
 
     //call d3 to show all the data
     d3.json(url).then((data) => {
-        let metadata = data.metadata;
+       // let metadata = data.metadata; 
 
         //filter data
         let result = metadata.filter(meta => meta.id == sampleId)[0];
